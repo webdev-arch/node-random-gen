@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 async function main() {
   const testEnv = process.env.TEST;
   console.log('TEST:', testEnv);

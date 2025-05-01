@@ -1,6 +1,6 @@
 {
   "name": "random-gen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -8,5 +8,8 @@
   },
   "author": "",
   "license": "ISC",
-  "description": "A high-quality random number generation library for Node.js"
+  "description": "A high-quality random number generation library for Node.js",
+  "dependencies": {
+    "dotenv": "^16.5.0"
+  }
 }
