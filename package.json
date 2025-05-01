@@ -1,0 +1,14 @@
+{
+  "name": "random-gen",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node benchmark.js",
+    "example": "node example.js",
+    "benchmark": "node benchmark.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "A high-quality random number generation library for Node.js"
+}
