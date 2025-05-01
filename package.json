@@ -4,9 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node benchmark.js",
-    "example": "node example.js",
-    "benchmark": "node benchmark.js"
+    "start": "node index.js"
   },
   "author": "",
   "license": "ISC",
