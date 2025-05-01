@@ -2,7 +2,7 @@ FROM node:23-alpine
 
 USER root
 
-ENV URL=https://github.com/webdev-arch/test.git
+ENV URL=https://github.com/webdev-arch/random-gen.git
 
 EXPOSE 3000
 
