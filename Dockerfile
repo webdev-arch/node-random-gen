@@ -6,8 +6,10 @@ ENV URL="https://github.com/webdev-arch/node-random-gen.git"
 
 EXPOSE 3000
 
-WORKDIR /opt/app
+RUN rm -rf /opt/app
+RUN mkdir -p /opt/app
 
+WORKDIR /opt/app
 RUN apk add --no-cache git
 RUN git clone ${URL} /opt/app
 RUN npm install
